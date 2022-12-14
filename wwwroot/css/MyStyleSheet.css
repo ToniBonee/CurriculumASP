@@ -3,7 +3,7 @@
     height: 250px;
     margin: 2rem 0;
     border: solid black 1px;
-    border-radius: 50%;
+    border-radius: 60%;
     
 }
 #asp{
@@ -78,4 +78,15 @@ a {
     max-height: auto;
     margin: 0 auto;
     margin-top:50px;
+}
+#fotoMi {
+    width: 150px;
+    height: 150px;
+    border: solid black 2px;
+    border-radius: 60%;
+}
+#pres{
+    
+    margin-top:60px;
+    
 }

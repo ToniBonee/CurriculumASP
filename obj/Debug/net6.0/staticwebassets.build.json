@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "y/SHnSvYBHBu5Kcorhqh0okA5HDUKb6QqftwR1jhWfw=",
+  "Hash": "5UXT9XN0cwiSU8Jax+/lSrBuV4TwIHex5IzgoQn2KjI=",
   "Source": "P1-ASP",
   "BasePath": "_content/P1-ASP",
   "Mode": "Default",
@@ -185,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Curriculum.png"
+    },
+    {
+      "Identity": "E:\\M7-\\asp\\P1-ASP\\wwwroot\\Images\\Foto.png",
+      "SourceId": "P1-ASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\M7-\\asp\\P1-ASP\\wwwroot\\",
+      "BasePath": "_content/P1-ASP",
+      "RelativePath": "Images/Foto.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Foto.png"
     },
     {
       "Identity": "E:\\M7-\\asp\\P1-ASP\\wwwroot\\Images\\FuncionesFacilonas.PNG",
