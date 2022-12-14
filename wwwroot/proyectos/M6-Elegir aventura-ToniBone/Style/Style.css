@@ -1,0 +1,15 @@
+#header,#footer{
+    background-color: darkorange;
+    padding: 30px;
+    color: white;
+    border: solid ;
+}
+#opcion1,#opcion2,#opcion3{
+    
+    border: solid black 1px;
+    padding-left: 100px;
+    
+    height: 30px;
+    width: 140px;
+    
+}

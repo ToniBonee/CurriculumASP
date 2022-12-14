@@ -1,0 +1,81 @@
+﻿#foto{
+    width: 200px;
+    height: 250px;
+    margin: 2rem 0;
+    border: solid black 1px;
+    border-radius: 50%;
+    
+}
+#asp{
+    width: 200px;
+    margin: 2rem 0;
+}
+.seccion-bienvenida {
+    margin: 5rem 0 10rem 0;
+    color: white;
+} 
+.seccion-bienvenida hl{
+    margin-bottom: lrem;
+}
+
+.seccion-bienvenida p {
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-size: 1.25rem;
+}
+#curriculumImg {
+    max-height: auto;
+    max-width: 400px;
+    filter: blur(5px);
+    
+}
+#curriculumImg:hover{
+    max-height: auto;
+    max-width: 500px;
+    filter: blur(0px);
+}
+
+#espacio{
+    padding-top: 20px;
+
+}
+a {
+    text-decoration: none;
+}
+#descargar:hover {
+    font-size: 45px;
+}
+#descargar {
+    color: red;
+    font-family: fantasy;
+    font-size: 35px;
+    
+}
+
+#titulo {
+    font-size: 80px;
+    font-family: fantasy;
+    text-shadow: 2px 0px 0px black, 0px 2px 2px black, -3px 0px 2px black, 2px -2px 0px black;
+    letter-spacing: 2px;
+    background-color:aquamarine;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    background-attachment: fixed;
+    background-position: center;
+}
+#con {
+    margin-top: 205px
+}
+
+#contacto,#expe {
+    background: linear-gradient(to right, aquamarine, lightskyblue, lightskyblue, aquamarine);
+    border: solid;
+    border-radius: 60px;
+    max-width: 600px;
+    max-height: auto;
+    margin: 0 auto;
+    margin-top:50px;
+}

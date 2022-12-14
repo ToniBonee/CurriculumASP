@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>FUNCIONES FACILONAS</header>
+        <h3>COMPARADOR DE TEXTOS</h3>
+
+            <input type="text" id="comprobar1" onkeyup="comprobarTextos()"><p id="igual">=</p>
+            <input type="text" id="comprobar2" onkeyup="comprobarTextos()" > <br> 
+
+        <h3>CONTAR HASTA 30 LETRAS</h3>
+
+            <input type="text" id="palabra" onkeyup="contarLetras()"> 
+            <span id="numeros"> </span> Letras
+            
+        <h3>RAÍZ CUADRADA</h3>
+            <input type="text" onkeyup="raizCuadrada(this)"> =
+            <input type="text" id="raizCuadrada" > 
+        
+        <h3>CONCATENAR TEXTOS</h3>
+            <input type="text" id="concat1" onkeyup="concatenarTextos()"> +
+            <input type="text" id="concat2" onkeyup="concatenarTextos()"> =
+            <input type="text" id="textosJuntos" > 
+
+    
+        <h3>CAMBIO DE COLOR</h3>
+        <input type="radio" id="verde" name="age" value="verde" onclick="colorTextoV()">
+        <label for="verde">Verde</label><br>
+
+        <input type="radio" id="azul" name="age" value="azul" onclick="colorTextoA()">
+        <label for="azul">Azul</label><br>
+
+        <input type="radio" id="rojo" name="age" value="rojo" onclick="colorTextoR()">
+        <label for="rojo">Rojo</label><br>
+
+        <p id="colorTexto">Este texto cambia de color</p>
+
+        <h3>CAMBIAR DE TAMAÑO</h3>
+        ALTURA
+        <input type="text" id="altura" onkeyup="cambiarAltura()">
+        ANCHURA
+        <input type="text" id="anchura" onkeyup="cambiarAnchura()"><br>
+        <img id="caracol" src="img/Caracol.png">
+        <h3>ADIVINA LA PALABRA</h3>
+        
+            <input type="text" id="caracol" onkeyup="adivinaCaracol(this)" >
+            <br><br>
+            HAS ACERTADO <span id="aceierto"></span> LETRAS 
+        
+        <footer></footer>
+    <script src="js/Javascript.js"></script>
+</body>
+</html>

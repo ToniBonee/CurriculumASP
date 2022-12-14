@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventura</title>
+    <link rel="stylesheet" href="Style/Style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <main class="container">
+        <header id="header" class="row">Elije tu propia aventura </header>
+
+
+
+
+        <main id="main" class="row">
+            <section>
+
+                <section class="row" id="inicio" >
+                    <h1 class="col-12">Bienvenido</h1>
+                    <p class="col-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, dolore ipsa omnis
+                        earum iusto id ipsum iure
+                        voluptatum. Facere numquam nesciunt distinctio mollitia at odio. Qui dolor autem quidem sequi
+                        libero rerum
+                        odit itaque, provident praesentium cupiditate ab nostrum eum quia, aliquid vero quos in! Quae
+                        commodi natus
+                        doloremque qui ullam nulla porro ratione dicta dolores esse nihil molestiae distinctio obcaecati
+                        praesentium
+                        quasi repudiandae at alias, earum, delectus iusto nisi magnam? Commodi suscipit rem velit
+                        tempora voluptates
+                        est quasi inventore, laborum voluptatibus necessitatibus assumenda nulla sint dolores,
+                        asperiores laboriosam
+                        atque iste debitis eligendi maxime pariatur. Quibusdam omnis voluptates quis autem!</p>
+                    <img class="col-3" src="/img/GFantasi.png">
+                    <input id="inicio" type="button" value="Comenzar la Aventura" onclick="comenzar()">
+                </section>
+
+                <section id="juego" class="row" hidden>
+
+                    <h1 class="col-12">Empieza tu aventura</h1>
+                    <p class="col-8">
+                        Bienvenido a este maravilloso mundo llamado Grand Fantasia, un mundo repleto de magia y
+                        monstruos donde tu elijes que quieres ser. Ay tres clases principales en este mundo, los magos
+                        que enplena el mana para lanzar echizos, los guerreros que utilizan todo tipo de armaduras y
+                        armas cuerpo a cuerpo y los guardabosques que se especializan en arcos y en domar animales
+                        salvajes que les ayudan en sus aventuras.
+                        Nos encontramos en Rindal, una ciudad tranquila y en la que vive nuestro protagonista Laris, que
+                        es un gran<a id="opcion1"></a><br><br>
+                        Nuestro protagonista en una de sus misiones se encontro un amuleto que se llama<br> <a
+                            id="opcion2"></a> y le ayuda mucho en sus aventuras dentro de su pequeña ciudad.
+                        <br><br>
+                        Un dia decidio que queria partir a una nueva aventura y se dispuso ha ir directo a<br> <a
+                            id="opcion3"></a>.
+                    </p>
+                    <img class="col-3" src="/img/protagonista.PNG">
+                    <h2 class="col-12">Eleciones</h2>
+                    <section class="col-3">
+                        <h5>Opcion1</h5>
+                        <a id="mago" draggable="true" class="op1">Mago</a><br>
+                        <a id="guerrero" draggable="true" class="op1">Guerrero</a><br>
+                        <a id="Guardabosques" draggable="true" class="op1">Guardabosques</a>
+                    </section>
+                    <section class="col-3">
+                        <h5>Opcion2</h5>
+                        <a id="cabra" draggable="true" class="op2">amuleto de la cabra</a><br>
+                        <a id="zafiro" draggable="true"class="op2">amuleto de zafiro</a><br>
+                        <a id="iris" draggable="true"class="op2">amuleto iris</a>
+                    </section>
+                    <section class="col-3">
+                        <h5>Opcion3</h5>
+                        <a id="bosque" draggable="true" class="op3">el bosque oscuro</a><br>
+                        <a id="heimdal" draggable="true"class="op3">el reino de Heimdal </a><br>
+                        <a id="pantano" draggable="true"class="op3">el pantano oscuro</a>
+                    </section>
+                    <a class="col-3"></a>
+                    <input id="limpiar" type="button" value="limpiar" class="col-4" onclick="limpiar()">
+                    <input id="continuar" type="button" value="continuar" class="col-4"  onclick="final()">
+                </section>
+                <section id="fin" class="row" hidden>
+                    <p id="historia"></p>
+                </section>
+                
+
+            </section>
+
+
+
+        </main>
+
+
+
+
+        <footer id="footer" class="row">@Toni Boné 2022</footer>
+
+    </main>
+    <script src="JavaScript/Script.js"></script>
+</body>
+
+</html>
