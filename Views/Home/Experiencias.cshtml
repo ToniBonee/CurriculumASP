@@ -1,14 +1,19 @@
 ﻿<div class="container">
 	<div class="row">
-		<section class="text-center" id="expe">
-			<h1 id="espacio">Experiencia</h1>
-			<h3 id="espacio">Becario en Colegio Fluviá (Nov 2020 -Jun 2021)</h3>
-			<p id="espacio">Técnico Informático</p>
-		</section>
-		<section class="text-center" id="expe">
-			<h1 id="espacio">Experiencia</h1>
-			<h3 id="espacio">Empresa Hispaworks (Diciembre 2022 )</h3>
-			<p id="espacio">Programador</p>
-		</section>
+		@foreach (var exper in ViewBag.Vname)
+			{
+			<section class="text-center" id="expe">
+				<h1 id="espacio">@exper.Title</h1>
+				<h3 id="espacio">@exper.Description</h3>
+				<p id="espacio">@exper.Puesto</p>
+			</section>
+			}
+		
+		
 	</div>
 </div>
+
+			
+				
+		
+			

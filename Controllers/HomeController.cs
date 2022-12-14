@@ -31,6 +31,7 @@ namespace P1_ASP.Controllers
         }
         public IActionResult Experiencias()
         {
+            ViewBag.Vname = new RepositoryOfExperiencia().GetExperiencias();
             return View();
         }
         public IActionResult Conocimientos()
