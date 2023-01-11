@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using P1_ASP.Context;
 using P1_ASP.Models;
 using P1_ASP.Services;
 using System.Diagnostics;
@@ -9,8 +10,10 @@ namespace P1_ASP.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
+        private readonly ContextDB contextDB;
         public HomeController(ILogger<HomeController> logger)
         {
+            this.contextDB = contextDB;
             _logger = logger;
         }
 
@@ -22,7 +25,8 @@ namespace P1_ASP.Controllers
         }
         public IActionResult Proyectos()
         {
-            ViewBag.Vname = new RepositoryOfProjects().GetProjects();
+            //ViewBag.Vname = new RepositoryOfProjects().GetProjects();
+            ViewBag.Vname = contextDB.ClassProjects.ToList();
             return View();
         }
         public IActionResult Formacion()
