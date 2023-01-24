@@ -8,13 +8,15 @@ namespace P1_ASP.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly ContextDB contextDB;
         private readonly ILogger<HomeController> _logger;
 
-        private readonly ContextDB contextDB;
-        public HomeController(ILogger<HomeController> logger)
+        
+        public HomeController(ILogger<HomeController> logger, ContextDB contextDB)
         {
-            this.contextDB = contextDB;
             _logger = logger;
+            this.contextDB = contextDB;
+           
         }
 
         public IActionResult Index()
